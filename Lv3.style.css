@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  /* ○ 一号：500px
+  ○ 二号：300px
+  ○ 三号：100px
+  ○ 四号：600px */
+.box1,.box2,.box3,.box4{
+    width: 320px;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+  .box1{
+    display: flex;
+    flex-shrink: 0;
+    height: 500px;
+}
+.box2{
+    height: 300px;
+    display: flex;
+    flex: 1 1 auto;
+}
+.box3{
+    height: 100px;
+    align-self: flex-start;
+}
+.box4{
+    height: 600px;
+    align-self: flex-start;
+    display: flex;
+    flex:0 2 auto;
+}

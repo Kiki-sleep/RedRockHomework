@@ -1,0 +1,40 @@
+/* body高度占满整个浏览器窗口 */
+html,body{
+	height: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+/* 取消下划线 */
+a{
+    text-decoration: none;
+}
+p{
+    color: red;
+}
+.box {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.box div {
+    width: 180px;
+    height: 50px;
+    background-color: grey;
+}
+/* 悬停背景颜色改变 */
+.box div:hover{
+    background-color: yellow;
+}
+/* 已知让第一个li的字体大小变为20px的代码为：*/
+.box ul li:nth-child(1){
+    font-size: 20px;
+}
+/* 第二个li的字体大小变为30px */
+.box ul li:nth-child(2){
+    font-size: 30px;
+}
+/* 第三个li的字体大小变为40px */
+.box ul li:nth-child(3){
+    font-size: 40px;
+}
